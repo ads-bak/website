@@ -1,0 +1,1302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BAK First Advertising — Performance Marketing Agency</title>
+<meta name="description" content="BAK First is a direct-response advertising agency specializing in lead generation. We guarantee to beat your best campaign by 10%, or we pay you.">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NR2NP5B');</script>
+<!-- End Google Tag Manager -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --cream: #F5F0E8;
+  --cream-dark: #EDE6D8;
+  --ink: #1A1612;
+  --ink-light: #3D352B;
+  --ink-muted: #6B5F52;
+  --amber: #C4842D;
+  --amber-dark: #A66D1F;
+  --amber-light: #E8B86D;
+  --tiger-orange: #D4763A;
+  --rule: #C9BFAF;
+  --white: #FFFDF8;
+  --serif: 'Instrument Serif', Georgia, serif;
+  --sans: 'DM Sans', -apple-system, sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--sans);
+  background: var(--cream);
+  color: var(--ink);
+  line-height: 1.65;
+  font-size: 17px;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---- Layout ---- */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 28px;
+}
+
+.container--narrow {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 0 28px;
+}
+
+/* ---- Typography ---- */
+h1, h2, h3, h4 {
+  font-family: var(--serif);
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+h1 { font-size: clamp(2.8rem, 6vw, 4.2rem); letter-spacing: -0.02em; }
+h2 { font-size: clamp(2rem, 4vw, 3rem); letter-spacing: -0.01em; }
+h3 { font-size: clamp(1.4rem, 2.5vw, 1.8rem); }
+h4 { font-size: 1.25rem; }
+
+p { max-width: 65ch; }
+
+a {
+  color: var(--amber-dark);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: color 0.2s;
+}
+a:hover { color: var(--tiger-orange); }
+
+.rule {
+  border: none;
+  border-top: 1px solid var(--rule);
+  margin: 0;
+}
+
+/* ---- Buttons ---- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--sans);
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 16px 36px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.btn--primary {
+  background: var(--ink);
+  color: var(--cream);
+}
+.btn--primary:hover {
+  background: var(--tiger-orange);
+  color: var(--white);
+}
+
+.btn--outline {
+  background: transparent;
+  color: var(--ink);
+  border: 2px solid var(--ink);
+}
+.btn--outline:hover {
+  background: var(--ink);
+  color: var(--cream);
+}
+
+.btn svg {
+  width: 16px;
+  height: 16px;
+  transition: transform 0.25s;
+}
+.btn:hover svg { transform: translateX(3px); }
+
+/* ---- Header / Nav ---- */
+.site-header {
+  padding: 24px 0;
+  border-bottom: 1px solid var(--rule);
+  position: sticky;
+  top: 0;
+  background: var(--cream);
+  z-index: 100;
+}
+
+.site-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  text-decoration: none;
+  color: var(--ink);
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+.logo:hover { color: var(--ink); }
+
+.logo-name {
+  font-family: var(--serif);
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+}
+
+.logo-sub {
+  font-family: var(--sans);
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  margin-top: 2px;
+}
+
+nav { display: flex; align-items: center; gap: 32px; }
+
+nav a {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--ink-muted);
+  transition: color 0.2s;
+}
+nav a:hover { color: var(--ink); }
+
+.nav-cta {
+  font-size: 13px !important;
+  padding: 10px 24px;
+  background: var(--ink);
+  color: var(--cream) !important;
+  text-decoration: none;
+}
+.nav-cta:hover {
+  background: var(--tiger-orange);
+  color: var(--white) !important;
+}
+
+.mobile-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+}
+.mobile-toggle span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--ink);
+  margin: 5px 0;
+  transition: all 0.3s;
+}
+
+/* ---- Hero ---- */
+.hero {
+  padding: 100px 0 80px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+.hero-label {
+  font-family: var(--sans);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--amber);
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  margin-bottom: 32px;
+  color: var(--ink);
+}
+
+.hero h1 em {
+  font-style: italic;
+  color: var(--tiger-orange);
+}
+
+.hero-rotating {
+  display: block;
+  position: relative;
+  margin-top: 8px;
+}
+
+.hero-phrase-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.hero-phrase {
+  display: inline-block;
+  position: relative;
+  color: var(--tiger-orange);
+  font-style: italic;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.hero-phrase.fade-out {
+  opacity: 0;
+  transform: translateY(8px);
+}
+
+.hero-phrase.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* SVG ink circle */
+.ink-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(100% + 40px);
+  height: calc(100% + 28px);
+  pointer-events: none;
+}
+
+.ink-circle ellipse {
+  fill: none;
+  stroke: var(--tiger-orange);
+  stroke-width: 2;
+  stroke-dasharray: 600;
+  stroke-dashoffset: 600;
+  stroke-linecap: round;
+  opacity: 0.5;
+}
+
+.ink-circle.drawing ellipse {
+  animation: drawCircle 0.8s ease forwards;
+}
+
+.ink-circle.erasing ellipse {
+  animation: eraseCircle 0.3s ease forwards;
+}
+
+@keyframes drawCircle {
+  to { stroke-dashoffset: 0; }
+}
+
+@keyframes eraseCircle {
+  from { stroke-dashoffset: 0; opacity: 0.5; }
+  to { stroke-dashoffset: 600; opacity: 0; }
+}
+
+.hero-body {
+  font-size: 18px;
+  color: var(--ink-light);
+  margin: 0 auto 36px;
+  line-height: 1.7;
+  max-width: 600px;
+}
+
+.hero-ctas {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* ---- Section Shared ---- */
+section { padding: 80px 0; }
+
+.section-label {
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--amber);
+  margin-bottom: 16px;
+}
+
+.section-intro {
+  font-size: 18px;
+  color: var(--ink-light);
+  margin-top: 16px;
+  line-height: 1.7;
+}
+
+/* ---- Difference / Why Us ---- */
+.difference {
+  background: var(--white);
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+
+.diff-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px;
+  margin-top: 48px;
+}
+
+.diff-card {
+  padding: 36px 0;
+  border-top: 3px solid var(--ink);
+}
+
+.diff-card h3 {
+  margin-bottom: 16px;
+}
+
+.diff-card p {
+  color: var(--ink-light);
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+/* ---- Guarantee ---- */
+.guarantee {
+  background: var(--ink);
+  color: var(--cream);
+  position: relative;
+  overflow: hidden;
+}
+
+.guarantee::before {
+  content: '10%';
+  position: absolute;
+  right: -40px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: var(--serif);
+  font-size: clamp(12rem, 20vw, 22rem);
+  font-weight: 400;
+  color: rgba(255,255,255,0.03);
+  line-height: 1;
+  pointer-events: none;
+}
+
+.guarantee .section-label { color: var(--amber-light); }
+
+.guarantee h2 { color: var(--cream); margin-bottom: 24px; }
+
+.guarantee-body {
+  font-size: 18px;
+  color: rgba(245,240,232,0.8);
+  line-height: 1.8;
+  margin-bottom: 36px;
+}
+
+.guarantee-body strong {
+  color: var(--cream);
+  font-weight: 600;
+}
+
+.catch-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin: 40px 0;
+}
+
+.catch {
+  padding: 28px 32px;
+  border: 1px solid rgba(245,240,232,0.12);
+  background: rgba(245,240,232,0.04);
+}
+
+.catch-num {
+  font-family: var(--serif);
+  font-size: 2rem;
+  color: var(--amber-light);
+  margin-bottom: 8px;
+}
+
+.catch h4 { color: var(--cream); margin-bottom: 8px; }
+
+.catch p {
+  font-size: 15px;
+  color: rgba(245,240,232,0.65);
+  line-height: 1.65;
+}
+
+.guarantee-stat {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  margin-top: 40px;
+  padding-top: 32px;
+  border-top: 1px solid rgba(245,240,232,0.1);
+}
+
+.guarantee-stat .big-num {
+  font-family: var(--serif);
+  font-size: 3.5rem;
+  color: var(--amber-light);
+  line-height: 1;
+}
+
+.guarantee-stat p {
+  font-size: 16px;
+  color: rgba(245,240,232,0.7);
+}
+
+.guarantee .btn--primary {
+  background: var(--amber);
+  color: var(--ink);
+  margin-top: 36px;
+}
+.guarantee .btn--primary:hover {
+  background: var(--amber-light);
+}
+
+/* ---- Services ---- */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  margin-top: 48px;
+}
+
+.service-card {
+  padding: 40px 36px;
+  background: var(--white);
+  border: 1px solid var(--rule);
+  transition: border-color 0.3s;
+  position: relative;
+}
+.service-card:hover { border-color: var(--amber); }
+
+.service-card h3 { margin-bottom: 12px; }
+
+.service-card p {
+  color: var(--ink-light);
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.service-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.service-tag {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 5px 12px;
+  background: var(--cream);
+  color: var(--ink-muted);
+  border: 1px solid var(--rule);
+}
+
+/* ---- Case Studies ---- */
+.case-studies {
+  background: var(--white);
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+
+.case-tabs {
+  display: flex;
+  gap: 8px;
+  margin: 40px 0 0;
+  border-bottom: 1px solid var(--rule);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  padding-bottom: 0;
+}
+.case-tabs::-webkit-scrollbar { display: none; }
+
+.case-tab {
+  padding: 8px 4px;
+  margin-bottom: -1px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  border: none;
+  background: none;
+  cursor: pointer;
+  white-space: nowrap;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s;
+  font-family: var(--sans);
+}
+.case-tab:hover { color: var(--ink); }
+.case-tab.active {
+  color: var(--ink);
+  border-bottom-color: var(--tiger-orange);
+}
+
+.case-panels { margin-top: 0; }
+
+.case-panel {
+  display: none;
+  padding: 32px 0;
+}
+.case-panel.active { display: block; }
+
+.case-panel-inner {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.case-icon {
+  width: 48px;
+  height: 48px;
+  background: var(--cream);
+  border: 1px solid var(--rule);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--serif);
+  font-size: 1.4rem;
+  color: var(--tiger-orange);
+  flex-shrink: 0;
+}
+
+.case-meta {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--amber);
+  margin-bottom: 8px;
+}
+
+.case-panel h3 { margin-bottom: 12px; }
+
+.case-panel p {
+  color: var(--ink-light);
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+.case-stat {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 8px 16px;
+  background: var(--cream);
+  border: 1px solid var(--rule);
+  font-family: var(--serif);
+  font-size: 1.1rem;
+  color: var(--tiger-orange);
+}
+
+/* ---- Affiliate Section ---- */
+.affiliate {
+  background: var(--cream-dark);
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+
+.affiliate-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.affiliate-card {
+  padding: 32px 28px;
+  background: var(--white);
+  border: 1px solid var(--rule);
+}
+
+.affiliate-card h4 {
+  margin-bottom: 10px;
+  font-size: 1.15rem;
+}
+
+.affiliate-card p {
+  color: var(--ink-light);
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+/* ---- CTA ink underline ---- */
+.cta-heading {
+  position: relative;
+  display: inline-block;
+}
+
+.ink-underline {
+  position: absolute;
+  bottom: -6px;
+  left: -4%;
+  width: 108%;
+  height: 18px;
+  pointer-events: none;
+}
+
+.ink-underline path {
+  fill: none;
+  stroke: var(--tiger-orange);
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  opacity: 0.6;
+}
+
+.ink-underline.drawn path {
+  animation: drawUnderline 0.9s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes drawUnderline {
+  to { stroke-dashoffset: 0; }
+}
+
+/* ---- CTA / Booking ---- */
+.cta-section {
+  padding: 100px 0 60px;
+  text-align: center;
+  position: relative;
+}
+
+.cta-section h2 { margin-bottom: 16px; }
+
+.cta-section .section-intro {
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.calendar-embed {
+  max-width: 900px;
+  margin: 0 auto 32px;
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.contact-links {
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  font-size: 15px;
+  color: var(--ink-muted);
+}
+
+.contact-links span:first-child {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.contact-links a {
+  font-weight: 600;
+  color: var(--amber-dark);
+  padding: 10px 24px;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  transition: border-color 0.2s, color 0.2s;
+}
+.contact-links a:hover {
+  border-color: var(--amber-dark);
+}
+
+.contact-links .email-protect {
+  font-weight: 600;
+  color: var(--amber-dark);
+  cursor: pointer;
+  padding: 10px 24px;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  transition: border-color 0.2s;
+}
+.contact-links .email-protect:hover {
+  border-color: var(--amber-dark);
+}
+
+.contact-sep { display: none; }
+
+/* ---- Footer ---- */
+.site-footer {
+  background: var(--ink);
+  color: rgba(245,240,232,0.5);
+  padding: 48px 0;
+  font-size: 14px;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-logo {
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--cream);
+  text-decoration: none;
+}
+.footer-logo:hover { color: var(--cream); }
+
+.footer-links {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.footer-links a {
+  color: rgba(245,240,232,0.5);
+  text-decoration: none;
+  font-size: 13px;
+  transition: color 0.2s;
+}
+.footer-links a:hover { color: var(--cream); }
+
+.footer-contact {
+  color: rgba(245,240,232,0.4);
+  font-size: 13px;
+}
+
+/* ---- Animations ---- */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 900px) {
+  .diff-grid { grid-template-columns: 1fr; gap: 32px; }
+  .catch-grid { grid-template-columns: 1fr; }
+  .services-grid { grid-template-columns: 1fr; }
+  .affiliate-grid { grid-template-columns: 1fr; }
+  .case-panel-inner { grid-template-columns: 1fr; }
+  .case-icon { display: none; }
+  section { padding: 60px 0; }
+  .hero { padding: 72px 0 60px; }
+}
+
+@media (max-width: 680px) {
+  nav a:not(.nav-cta) { display: none; }
+  .mobile-toggle { display: block; }
+  .hero { padding: 48px 0 40px; }
+  .hero-ctas { flex-direction: column; }
+  .hero-ctas .btn { text-align: center; justify-content: center; }
+  .footer-inner { flex-direction: column; text-align: center; }
+  .footer-links { justify-content: center; }
+  .contact-links { flex-direction: column; gap: 10px; }
+  .contact-links a, .contact-links .email-protect { width: 100%; text-align: center; }
+  .case-tab { font-size: 11px; padding: 8px 6px; }
+}
+
+/* Mobile nav */
+.mobile-nav {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: var(--cream);
+  z-index: 200;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+.mobile-nav.open { display: flex; }
+.mobile-nav a {
+  font-family: var(--serif);
+  font-size: 2rem;
+  text-decoration: none;
+  color: var(--ink);
+}
+.mobile-nav .close-btn {
+  position: absolute;
+  top: 24px;
+  right: 28px;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: var(--ink);
+}
+</style>
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NR2NP5B"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Header -->
+<header class="site-header">
+  <div class="container">
+    <a href="#" class="logo">
+      <span class="logo-name">BAK First</span>
+      <span class="logo-sub">Advertising</span>
+    </a>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#results">Results</a>
+      <a href="#guarantee">Guarantee</a>
+      <a href="#work-with-us" class="nav-cta btn">Work With Us</a>
+    </nav>
+    <button class="mobile-toggle" onclick="document.getElementById('mobileNav').classList.add('open')" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- Mobile Nav -->
+<div id="mobileNav" class="mobile-nav">
+  <button class="close-btn" onclick="this.parentElement.classList.remove('open')">&times;</button>
+  <a href="#services" onclick="this.parentElement.classList.remove('open')">Services</a>
+  <a href="#results" onclick="this.parentElement.classList.remove('open')">Results</a>
+  <a href="#guarantee" onclick="this.parentElement.classList.remove('open')">Guarantee</a>
+  <a href="#work-with-us" onclick="this.parentElement.classList.remove('open')">Work With Us</a>
+</div>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-label">Direct-Response Advertising</div>
+      <h1>
+        We get you results with
+        <span class="hero-rotating">
+          <span class="hero-phrase-wrapper">
+            <span class="hero-phrase fade-in" id="heroPhrase">Affiliate Marketing</span>
+            <svg class="ink-circle drawing" id="inkCircle" viewBox="0 0 300 70" preserveAspectRatio="none">
+              <ellipse cx="150" cy="35" rx="144" ry="30" />
+            </svg>
+          </span>
+        </span>
+      </h1>
+      <p class="hero-body">BAK First is a performance marketing agency that treats advertising as salesmanship. We guarantee to beat your best campaign by at least 10% — or we pay you.</p>
+      <div class="hero-ctas">
+        <a href="#work-with-us" class="btn btn--primary">Work With Us <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+        <a href="#guarantee" class="btn btn--outline">See The Guarantee</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Why Us -->
+<section class="difference" id="why-us">
+  <div class="container">
+    <div class="section-label reveal">The BAK First Difference</div>
+    <h2 class="reveal">Advertising that sells. Period.</h2>
+    <div class="diff-grid">
+      <div class="diff-card reveal">
+        <h3>Salesmanship First</h3>
+        <p>Every word, every image must justify itself in sales. Most agencies agree with this in theory. We live it — and we're willing to guarantee the results.</p>
+      </div>
+      <div class="diff-card reveal">
+        <h3>Deep Research</h3>
+        <p>We tear apart your testimonials, surveys, and refund data. We interview your users. We use your product. Then we compare it against competitors to find the one thing that makes you different.</p>
+      </div>
+      <div class="diff-card reveal">
+        <h3>Test, Learn, Scale</h3>
+        <p>We build campaigns that prove — logically, factually, and visually — why your product is the best solution. Then we test relentlessly and scale what works. Results measured in sales, not likes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Services -->
+<section class="services" id="services">
+  <div class="container">
+    <div class="section-label reveal">What We Do</div>
+    <h2 class="reveal">Lead Generation, Done Right</h2>
+    <p class="section-intro reveal">We focus on lead generation using direct-response techniques across Google, YouTube, Meta, and Microsoft. B2B and B2C.</p>
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <h3>Video Advertising</h3>
+        <p>Full-service video ad production and campaign management for YouTube, Facebook, and Instagram. We research, write scripts, produce with professional talent, launch campaigns, and manage performance.</p>
+        <div class="service-tags">
+          <span class="service-tag">YouTube</span>
+          <span class="service-tag">Meta</span>
+          <span class="service-tag">Scripting</span>
+          <span class="service-tag">Production</span>
+        </div>
+      </div>
+      <div class="service-card reveal">
+        <h3>PPC Search Advertising</h3>
+        <p>Campaign creation and management in Google Ads and Microsoft Ads. We target the most relevant audiences, write ads that pull, and continuously test and optimize for leads.</p>
+        <div class="service-tags">
+          <span class="service-tag">Google Ads</span>
+          <span class="service-tag">Microsoft Ads</span>
+          <span class="service-tag">B2B</span>
+          <span class="service-tag">B2C</span>
+        </div>
+      </div>
+      <div class="service-card reveal">
+        <h3>Landing Pages &amp; Funnels</h3>
+        <p>High-converting landing pages and funnels built with direct-response principles. Because the best ad in the world can't save a bad landing page.</p>
+        <div class="service-tags">
+          <span class="service-tag">CRO</span>
+          <span class="service-tag">Funnels</span>
+          <span class="service-tag">Copy</span>
+        </div>
+      </div>
+      <div class="service-card reveal">
+        <h3>Tracking &amp; Analytics</h3>
+        <p>Conversion tracking, attribution setup, and performance reporting. If you can't measure it, you can't improve it — we make sure every dollar is accounted for.</p>
+        <div class="service-tags">
+          <span class="service-tag">Attribution</span>
+          <span class="service-tag">Analytics</span>
+          <span class="service-tag">Reporting</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Guarantee -->
+<section class="guarantee" id="guarantee">
+  <div class="container--narrow">
+    <div class="section-label reveal">Our Guarantee</div>
+    <h2 class="reveal">We'll beat your best campaign by 10%, or we pay you.</h2>
+    <p class="guarantee-body reveal">
+      We guarantee to beat your best ad by at least 10% in a split test. If we don't? <strong>All our work is free — and we refund half your ad costs</strong> to cover our share of the test. We only require two things to begin.
+    </p>
+    <div class="catch-grid reveal">
+      <div class="catch">
+        <div class="catch-num">1</div>
+        <h4>Creative freedom</h4>
+        <p>Outside of legal and factual approval, we need to keep creative control. If the words are rewritten or the design changed, we can't guarantee success.</p>
+      </div>
+      <div class="catch">
+        <div class="catch-num">2</div>
+        <h4>You need better advertising</h4>
+        <p>If your current advertising is already great, we'll tell you. We're not pretending to be the only agency that can create good work — but if your ads don't match your product's potential, we can help.</p>
+      </div>
+    </div>
+    <div class="guarantee-stat reveal">
+      <div class="big-num">19/20</div>
+      <p>On average, we beat 19 out of every 20 campaigns that come our way. Bold claim — but we back it with our own money.</p>
+    </div>
+    <a href="#work-with-us" class="btn btn--primary reveal">Work With Us <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+  </div>
+</section>
+
+<!-- Case Studies - Agency -->
+<section class="case-studies" id="results">
+  <div class="container">
+    <div class="section-label reveal">Client Results</div>
+    <h2 class="reveal">What We've Done</h2>
+    <p class="section-intro reveal">We wish we could say we hit home runs every time. Honestly, that wouldn't be true. But for the most part, our clients have done quite well.</p>
+
+    <div class="case-tabs reveal" role="tablist">
+      <button class="case-tab active" data-panel="case-1" role="tab">Education</button>
+      <button class="case-tab" data-panel="case-2" role="tab">Coding Bootcamp</button>
+      <button class="case-tab" data-panel="case-3" role="tab">Financial Advisory</button>
+      <button class="case-tab" data-panel="case-4" role="tab">Auto Dealers</button>
+      <button class="case-tab" data-panel="case-5" role="tab">B2B SaaS</button>
+      <button class="case-tab" data-panel="case-6" role="tab">D2C Brand</button>
+      <button class="case-tab" data-panel="case-7" role="tab">Mortgage (EU)</button>
+      <button class="case-tab" data-panel="case-8" role="tab">Coworking</button>
+    </div>
+
+    <div class="case-panels">
+      <div class="case-panel active" id="case-1">
+        <div class="case-panel-inner">
+          <div class="case-icon">1</div>
+          <div>
+            <div class="case-meta">Real Estate Investing Course</div>
+            <h3>33rd Fastest Growing Online Education Company</h3>
+            <p>In less than one year, we helped this client become one of the fastest-growing companies in online education. We hit their internal goal of 100k customers and are on track to double it.</p>
+            <div class="case-stat">100k+ customers in &lt;1 year</div>
+          </div>
+        </div>
+      </div>
+      <div class="case-panel" id="case-2">
+        <div class="case-panel-inner">
+          <div class="case-icon">2</div>
+          <div>
+            <div class="case-meta">Online Coding Bootcamp</div>
+            <h3>Doubled Revenue Twice — Then Got Acquired</h3>
+            <p>The business wanted to double revenue within a year while already making 8 figures — and remain profitable. We more than doubled revenue in year one, then doubled it again in year two. Then they were acquired. For a lot of money.</p>
+            <div class="case-stat">4× revenue growth → acquisition</div>
+          </div>
+        </div>
+      </div>
+      <div class="case-panel" id="case-3">
+        <div class="case-panel-inner">
+          <div class="case-icon">3</div>
+          <div>
+            <div class="case-meta">Financial Advisory Service</div>
+            <h3>Millions in Ad Spend at 50% Profit Margins</h3>
+            <p>We ran millions in YouTube, Discovery, and Display advertising with a 50% profit margin for over two years. You've definitely seen this brand on the internet.</p>
+            <div class="case-stat">50% profit margin at scale</div>
+          </div>
+        </div>
+      </div>
+      <div class="case-panel" id="case-4">
+        <div class="case-panel-inner">
+          <div class="case-icon">4</div>
+          <div>
+            <div class="case-meta">Automotive Dealer Collective</div>
+            <h3>120% Yearly Growth, First to Market With YouTube</h3>
+            <p>Our ads generated 15–20% monthly sales growth and 120% yearly growth. We were the first dealer in the market to adopt YouTube Ads and saw 40% increases in SUV sales as a result.</p>
+            <div class="case-stat">120% yearly growth</div>
+          </div>
+        </div>
+      </div>
+      <div class="case-panel" id="case-5">
+        <div class="case-panel-inner">
+          <div class="case-icon">5</div>
+          <div>
+            <div class="case-meta">B2B SaaS Startup</div>
+            <h3>Doubled Leads, Halved CPL — Then Proved YouTube Works for B2B</h3>
+            <p>We took over from a top-ranked US agency. In month one, we doubled leads and cut cost per lead in half with the same budget. By year's end, 34% of all closed Google leads came from YouTube ads. The previous agency said YouTube for B2B couldn't be done.</p>
+            <div class="case-stat">34% of closed deals from YouTube</div>
+          </div>
+        </div>
+      </div>
+      <div class="case-panel" id="case-6">
+        <div class="case-panel-inner">
+          <div class="case-icon">6</div>
+          <div>
+            <div class="case-meta">Premium D2C Brand</div>
+            <h3>From $10k to $125k/month — Over 10× Growth</h3>
+            <p>When we started, their website sales were under $10,000/month with just $1,000 in Google Ads spend. Since then, sales have grown to over $125,000/month — more than 10× growth — with Google Ads now representing over half of online sales.</p>
+            <div class="case-stat">10× revenue growth</div>
+          </div>
+        </div>
+      </div>
+      <div class="case-panel" id="case-7">
+        <div class="case-panel-inner">
+          <div class="case-icon">7</div>
+          <div>
+            <div class="case-meta">Mortgage Comparison (Switzerland)</div>
+            <h3>8× Qualified Leads in Month One</h3>
+            <p>In the first month after taking over: qualified leads doubled, cost per qualified lead was cut in half, and we doubled the spend. That's 8× more qualified leads. Long sales cycle, but the early results are promising.</p>
+            <div class="case-stat">8× qualified leads</div>
+          </div>
+        </div>
+      </div>
+      <div class="case-panel" id="case-8">
+        <div class="case-panel-inner">
+          <div class="case-icon">8</div>
+          <div>
+            <div class="case-meta">Hourly Coworking Space</div>
+            <h3>The One That Got Away</h3>
+            <p>Our first attempt was so bad we never got a second chance. We took it on the chin per our risk-free agreement and referred them to someone we thought would be a better fit. Can't win them all.</p>
+            <div class="case-stat">Honesty &gt; ego</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Affiliate -->
+<section class="affiliate" id="affiliate">
+  <div class="container">
+    <div class="section-label reveal">Affiliate &amp; Performance</div>
+    <h2 class="reveal">Affiliate Marketing Services</h2>
+    <p class="section-intro reveal">We don't just run campaigns for clients — we're operators ourselves. Here's our track record in the affiliate space.</p>
+    <div class="affiliate-grid">
+      <div class="affiliate-card reveal">
+        <h4>Home &amp; Auto Insurance</h4>
+        <p>Spent over $1 million on home and auto insurance campaigns profitably in the last year. We know the vertical inside and out — compliance, creatives, and conversion flows that work.</p>
+      </div>
+      <div class="affiliate-card reveal">
+        <h4>Business Loans</h4>
+        <p>Spent over $2 million on business loan campaigns profitably in the last year. High-intent lead gen at scale, with the unit economics dialed in across multiple offers and geos.</p>
+      </div>
+      <div class="affiliate-card reveal">
+        <h4>Our Own Lead Marketplace</h4>
+        <p>We built and launched our own form for offers, currently accepting new buyers in almost any vertical. If you're buying leads, talk to us — we can likely deliver volume at scale.</p>
+      </div>
+      <div class="affiliate-card reveal">
+        <h4>Cross-Vertical Expertise</h4>
+        <p>We've run offers across legal, insurance, loans, and finance — so we know what's working now. When you work with us, you get the benefit of that real-time market intelligence to speedrun results.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA / Booking -->
+<section class="cta-section" id="work-with-us">
+  <div class="container--narrow">
+    <div class="section-label reveal">Let's Talk</div>
+    <h2 class="reveal cta-heading" id="ctaHeading">Work With Us
+      <svg class="ink-underline" id="inkUnderline" viewBox="0 0 300 20" preserveAspectRatio="none">
+        <path d="M5 14 C30 8, 60 18, 100 12 C140 6, 180 16, 220 10 C250 6, 275 14, 295 10" />
+      </svg>
+    </h2>
+    <p class="section-intro reveal">Whether you're looking for an agency to run your campaigns, an affiliate partner, or a reliable source of leads — book a call and let's see if there's a fit.</p>
+    <div class="calendar-embed reveal">
+      <iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0TkBigzwyzWcTg0pjeocH_FOsUl1KmSF60PX1DrbCO6thTpBLRo6_ur1-stQZTnt5L-pTF30Wz?gv=true" style="border: 0; border-radius: 8px;" width="100%" height="600" frameborder="0"></iframe>
+    </div>
+    <div class="contact-links reveal">
+      <span>Or reach us directly:</span>
+      <a href="https://www.linkedin.com/in/austinkinney/" target="_blank" rel="noopener">Brandon on LinkedIn</a>
+      <span class="email-protect" data-user="info" data-domain="bak-first.com" title="Click to copy email">info <em>at</em> bak-first.com</span>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <a href="#" class="footer-logo">BAK First Advertising</a>
+      <div class="footer-links">
+        <a href="/terms.html" target="_blank">Terms of Service</a>
+        <a href="/privacy.html" target="_blank">Privacy Policy</a>
+        <a href="https://www.linkedin.com/in/austinkinney/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+      <div class="footer-contact">&copy; BAK First LLC. All rights reserved.</div>
+    </div>
+  </div>
+</footer>
+
+<script>
+// ---- Scroll reveal ----
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      observer.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.12 });
+
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+// ---- Ink underline on CTA heading ----
+const underlineObs = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const line = document.getElementById('inkUnderline');
+      if (line) line.classList.add('drawn');
+      underlineObs.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.3 });
+const ctaH = document.getElementById('ctaHeading');
+if (ctaH) underlineObs.observe(ctaH);
+
+// ---- Case study tabs ----
+document.querySelectorAll('.case-tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.case-tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.case-panel').forEach(p => p.classList.remove('active'));
+    tab.classList.add('active');
+    document.getElementById(tab.dataset.panel).classList.add('active');
+  });
+});
+
+// ---- Email protection ----
+document.querySelectorAll('.email-protect').forEach(el => {
+  el.addEventListener('click', () => {
+    const email = el.dataset.user + '@' + el.dataset.domain;
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(email).then(() => {
+        const orig = el.innerHTML;
+        el.textContent = 'Copied!';
+        setTimeout(() => { el.innerHTML = orig; }, 2000);
+      });
+    } else {
+      window.location.href = 'mailto:' + email;
+    }
+  });
+});
+
+// ---- Smooth scroll for anchor links ----
+document.querySelectorAll('a[href^="#"]').forEach(link => {
+  link.addEventListener('click', e => {
+    const target = document.querySelector(link.getAttribute('href'));
+    if (target) {
+      e.preventDefault();
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
+});
+
+// ---- Hero phrase rotation ----
+(function() {
+  const phrases = [
+    'Affiliate Marketing',
+    'Managed Client Growth',
+    'Profitable Digital Ads',
+    'Video Marketing'
+  ];
+  let current = 0;
+  const el = document.getElementById('heroPhrase');
+  const circle = document.getElementById('inkCircle');
+  if (!el || !circle) return;
+
+  function nextPhrase() {
+    // Erase the circle
+    circle.classList.remove('drawing');
+    circle.classList.add('erasing');
+
+    // Fade out text
+    el.classList.remove('fade-in');
+    el.classList.add('fade-out');
+
+    setTimeout(() => {
+      // Update text
+      current = (current + 1) % phrases.length;
+      el.textContent = phrases[current];
+
+      // Fade in text
+      el.classList.remove('fade-out');
+      el.classList.add('fade-in');
+
+      // Draw circle
+      circle.classList.remove('erasing');
+      // Force reflow to restart animation
+      void circle.offsetWidth;
+      circle.classList.add('drawing');
+    }, 400);
+  }
+
+  setInterval(nextPhrase, 3200);
+})();
+</script>
+
+</body>
+</html>
